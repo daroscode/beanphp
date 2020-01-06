@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /assets
+Disallow: /controllers
+Disallow: /core
+Disallow: /media
+Disallow: /models
+Disallow: /rel
+Disallow: /views/login.php

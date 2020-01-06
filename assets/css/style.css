@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Ubuntu";
+    src:url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+  }
+  /*TEMPLATE GENERAL*/
+  
+  body {
+      font-family: "Ubuntu";
+      margin: 0;
+      background: #EEE;
+      height: auto;
+  }
+  
+  img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    flex: 0 1 60vw;
+    align-items: center;
+  }
+
+  h2{
+    padding-top: 20px;
+  }
+
+  .form_design_one{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 50vh;
+  }
+  
+  .form_design_one p {
+      color: #03EBA6;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+      font-size: 3rem;
+  }
+  
+  /* WELCOME PAGE */
+  .logo_text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 50vh;
+  }
+  
+  .logo_text p {
+      color: #03EBA6;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+      font-size: 3.2rem;
+  }
+  
+  .logo_text h1 {
+      color: #03EBA6;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+      font-size: 9.2rem;
+  }
+  
+  .logo_links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+  }
+  
+  .logo_links a {
+      color: #03EBA6;
+      margin: 1rem;
+      text-decoration: none;
+  }
+  
+  /* LOGIN PAGE */
+  
+  .login_design {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 50vh;
+  }
+  
+  .login_design p {
+      color: #03EBA6;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+      font-size: 3rem;
+  }
+  
+  .login_links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+  }
+  
+  .login_links a {
+      color: #03EBA6;
+      margin: 1rem;
+      text-decoration: none;
+  }
+  
+  .return_message {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      position:absolute;
+      bottom:0;
+      width: 100%;
+  }
+  /* MODAL PAGE */
+  
+  .header_treat {
+      font-weight: bold;
+  }
+  
+  /* IMAGES PAGE */
+  .img_tweaks{
+    width: 100%;
+  }
+  
+  /* MOBILE */
+  @media only screen and (min-width: 320px) and (max-width: 480px){
+      
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px){
+      
+  }
+  
+  @media (min-width: 481px) and (max-width: 667px){
+      
+  }
+  
+  @media (min-width: 668px) and (max-width: 730px){
+      
+  }
+  
+  /* TABLETS */
+  @media (min-width: 480px) and (max-width: 767px){
+      
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+      
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+      
+  }
+  
+  /* DESKTOP TELAS MENORES  */
+  @media (min-width: 1025px) and (max-width: 1366px){
+      img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          flex: 0 1 60vw;
+          align-items: center;
+      }
+      .login_design p {
+          color: #03EBA6;
+          text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+          font-size: 4rem;
+      }
+  
+      /* IMAGES PAGE */
+      .img_tweaks{
+        width: 200px;
+        height: 130px;
+        min-height: 130px;
+        float: left;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        margin-bottom: 100px;
+      }
+      .img_tweaks img{
+        width: 200px;
+      }
+      .img_edit {
+        display: flex;
+        text-align: center;
+        padding: 10px;
+      }
+  }
+  
+  /* DESKTOP GRANDE  */
+  @media (min-width: 1367px){
+      
+  }
