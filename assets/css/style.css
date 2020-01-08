@@ -22,6 +22,10 @@
   h2{
     padding-top: 20px;
   }
+  
+  u, a, a:hover {
+      text-decoration: none !important;
+  }
 
   .form_design_one{
       display: flex;
